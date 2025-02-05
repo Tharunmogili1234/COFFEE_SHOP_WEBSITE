@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+
+.explore-menu-section {
+    background-color: white;
+    margin-top:50px;
+}
+.explore-menu-section1 {
+    background-color: white;
+    margin-top:50px;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    text-align:center;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    text-align: center;
+    font-style:bold;
+}
+.menu-card-desc{
+    font-family:"roboto";
+    font-style:bold;
+    font-weight:300;
+    text-align: center;
+}
+.menu-card-price{
+    text-align: center;
+    font-size: 15px;
+    font-family: "roboto";
+
+}
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+
+.healthy-food-section-img {
+    width: 270px;
+}
+
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.delivery-and-payment-section {
+    background-color: white;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.thanking-customers-section {
+    background-color: #d0b2001a;
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.footer{
+    background-color: black;
+    color:white;
+    text-align:center;
+    height:40px;
+}
+.img{
+    height:300px;
+    width:300px;
+    margin-left: 680px;
+    
+}
+.btn{
+    background-color:yellow;
+    text-align: center;
+}
+.header{
+    background-image:url('https://th.bing.com/th/id/OIP.PjDSwImkTaNrilI455Bl4gHaE8?w=283&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    height:200px;
+    width:100vw;
+    background-size:cover;
+}
+.heading{
+    text-align: center;
+    padding-top:20px;
+    font-size: 30px;
+    font-style: bold;
+}
+.para{
+    text-align: center;
+    font-size: 20px;
+    font-family: bold;
+
+}
+.about{
+    background-color:lightgrey;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text{
+    width:700px;
+    height:30px;
+    margin:15px;
+}
+.bt{
+    margin:10px;
+    background-color:brown;
+    color:white;
+}
+.p11{
+    color:white;
+    font-size:15px;
+    font-family: roboto;
+    font-size: bold;
+    padding-top:7px
+}
+</style>
+
+</head>
+
+<body>
+    
+        <div align="center">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="header">
+          <h1 class="heading">Welcome to Brewed Awakening</h1>
+          <p class="para">Your daily Dose of Caffeine</p>
+          <button class="btn" align="center" onclick="display('menu')">View Menu</button>
+              
+        </div>
+      </nav>
+    </div>
+    <div class="explore-menu-section pt-100 pb-5" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading" id="menu">Our Menu</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://images.pexels.com/photos/434213/pexels-photo-434213.jpeg?cs=srgb&dl=aroma-aromatic-art-434213.jpg&fm=jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Espresso</h1>
+                        <p class="menu-card-desc">a strong and bold coffee experience</p>
+                        <p class="menu-card-price">$2.50</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://th.bing.com/th/id/OIP.e_prLxtd7ARK9yGrE6539wHaE8?rs=1&pid=ImgDetMain" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Latte</h1>
+                        <p class="menu-card-desc">Smooth Expresso with steamed Milk</p>
+                        <p class="menu-card-price">$3.50</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://wallpaperaccess.com/full/1076692.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Cappuccino</h1>
+                        <p class="menu-card-desc">A Delightful mix of expresso ,milk, and foam </p>
+                        <p class="menu-card-price">$3.75</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://th.bing.com/th/id/OIP.wcrjA0IZHBkWV3arYiMiqQHaFM?rs=1&pid=ImgDetMain" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Latte</h1>
+                        <p class="menu-card-desc">Smooth Expresso with steamed Milk</p>
+                        <p class="menu-card-price">$3.50</p>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://th.bing.com/th/id/R.06dcf2ceaab82bc7de6edcd2f7697e38?rik=YEHa74tuYakyyg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fRzgv2dA.jpg&ehk=dOGO1zPU643yuym5PDIh9BlQFtTs0Mw6nS3%2fveLap18%3d&risl=&pid=ImgRaw&r=0" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Cappuccino</h1>
+                        <p class="menu-card-desc">A Delightful mix of expresso ,milk, and foam </p>
+                        <p class="menu-card-price">$3.75</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://th.bing.com/th/id/R.a713738faa750a4062940ad1ab25931b?rik=KS8rZ5JLbG%2fnZQ&riu=http%3a%2f%2fclipart-library.com%2fimages%2fpc7r5rbLi.jpg&ehk=zT%2fBGrTMQ3t6OYKw9iFzuijxsr5fIlH70hbd6Rf0aBQ%3d&risl=&pid=ImgRaw&r=0" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Espresso</h1>
+                        <p class="menu-card-desc">a strong and bold coffee experience</p>
+                        <p class="menu-card-price">$2.50</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://th.bing.com/th/id/R.b1afe59f6c921a33b399f8430cae03cd?rik=HXoGx2F1LEfs0A&riu=http%3a%2f%2fwww.photoaxe.com%2fwp-content%2fuploads%2f2014%2f08%2fcofffecup.jpg&ehk=kjRd5mD5E19VA8q56bXzpxFGEaadsbSpZ7zSiHyHmMQ%3d&risl=&pid=ImgRaw&r=0" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Cappuccino</h1>
+                        <p class="menu-card-desc">A Delightful mix of expresso ,milk, and foam </p>
+                        <p class="menu-card-price">$3.75</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://www.pixelstalk.net/wp-content/uploads/2016/05/Free-Download-Coffee-Wallpapers-High-Quality.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Espresso</h1>
+                        <p class="menu-card-desc">a strong and bold coffee experience</p>
+                        <p class="menu-card-price">$2.50</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="explore-menu-section1 pt-100 pb-5" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Breakfast Menu</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://th.bing.com/th/id/OIP.1W527DA7nxz7OW3f8xgSUgHaEY?rs=1&pid=ImgDetMain" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Breakfast Sandwich</h1>
+                        <p class="menu-card-desc">Scrambled egg,cheese, and bacon on a fresh bun with cheese topped served with maple syrup</p>
+                        <p class="menu-card-price">$4.50</p>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://th.bing.com/th/id/OIP.Fx6_2IcFZzV5cYtmfFqdiQHaFj?rs=1&pid=ImgDetMain" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Breakfast Sandwich</h1>
+                        <p class="menu-card-desc">Scrambled egg,cheese, and bacon on a fresh bun with cheese topped</p>
+                        <p class="menu-card-price">$4.50</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://th.bing.com/th/id/OIP.Mj1yle6tVVv2PF-4S0-L6QHaFp?rs=1&pid=ImgDetMain" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">ButterMilk Pancakes</h1>
+                        <p class="menu-card-desc">Fluffy pancakes served with maple syrup</p>
+                        <p class="menu-card-price">$5.00</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://c8.alamy.com/comp/D97TJ2/homemade-fresh-whole-grain-bagel-with-cream-cheese-D97TJ2.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Bagel with cream cheese</h1>
+                        <p class="menu-card-desc">fresh bagel topped with creamy cheese bread</p>
+                        <p class="menu-card-price">$3.00</p>
+                    </div>
+                </div>
+                
+                
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="about">
+
+        <h1>About Us</h1>
+        <p>At Brewed Awakening, we believe in crafting the perfect cup of coffee. Our beans are sourced from the best farms around the world. Each cup is brewed with love and passion by our experienced baristas to deliver a rich and smooth experience.
+
+            Play
+            
+            We pride ourselves on sustainability and quality, ensuring that every bean is ethically sourced and every sip is a delightful experience. Whether you're
+        </p>
+        <img src="https://images.pexels.com/photos/434213/pexels-photo-434213.jpeg?cs=srgb&dl=aroma-aromatic-art-434213.jpg&fm=jpg" class="img">
+    </div>
+
+    <div align="center">
+        <h1 class="thanking-customers-section-heading">
+            Contact Us
+        </h1>
+        <div align="center">
+           <input type="text" placeholder="Your Name" class="text">
+
+        </div>
+        <div align="center">
+            
+            <input type="text" placeholder="Your Email" class="text">
+        </div>
+        <div align="center">
+            <input type="text" placeholder="Your Message" class="text">
+        </div>
+        <div>
+            <button color="#fffff" class="bt">Send Message</button>
+        </div>
+    </div>
+    <div>
+
+        <footer class="footer" align="center">
+            <p class="p11">@ 2024 Brewed Awakening. All Rights reserved</p>
+        </footer>
+    </div>
+   
+</body>
+
+</html>
